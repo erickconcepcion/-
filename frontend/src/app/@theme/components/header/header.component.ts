@@ -28,15 +28,15 @@ export class HeaderComponent implements OnInit, OnDestroy {
   themes = [
     {
       value: 'default',
-      name: 'Light',
+      name: 'Base',
     },
     {
       value: 'dark',
-      name: 'Dark',
+      name: 'Oscuro',
     },
     {
       value: 'cosmic',
-      name: 'Cosmic',
+      name: 'Estelar',
     },
     {
       value: 'corporate',
