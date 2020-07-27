@@ -1,26 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gusta\\Desktop\\PTSCB\\backend\\src\\Common\\Common.Utils\\Common.Utils.csproj": {}
+    "C:\\Proyecto-SCB\\backend\\src\\Common\\Common.Utils\\Common.Utils.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gusta\\Desktop\\PTSCB\\backend\\src\\Common\\Common.Entities\\Common.Entities.csproj": {
+    "C:\\Proyecto-SCB\\backend\\src\\Common\\Common.Entities\\Common.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gusta\\Desktop\\PTSCB\\backend\\src\\Common\\Common.Entities\\Common.Entities.csproj",
+        "projectUniqueName": "C:\\Proyecto-SCB\\backend\\src\\Common\\Common.Entities\\Common.Entities.csproj",
         "projectName": "Common.Entities",
-        "projectPath": "C:\\Users\\gusta\\Desktop\\PTSCB\\backend\\src\\Common\\Common.Entities\\Common.Entities.csproj",
-        "packagesPath": "C:\\Users\\gusta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gusta\\Desktop\\PTSCB\\backend\\src\\Common\\Common.Entities\\obj\\",
+        "projectPath": "C:\\Proyecto-SCB\\backend\\src\\Common\\Common.Entities\\Common.Entities.csproj",
+        "packagesPath": "C:\\Users\\Ingal\\.nuget\\packages\\",
+        "outputPath": "C:\\Proyecto-SCB\\backend\\src\\Common\\Common.Entities\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\gusta\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Ingal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -60,27 +55,22 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\gusta\\Desktop\\PTSCB\\backend\\src\\Common\\Common.Utils\\Common.Utils.csproj": {
+    "C:\\Proyecto-SCB\\backend\\src\\Common\\Common.Utils\\Common.Utils.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gusta\\Desktop\\PTSCB\\backend\\src\\Common\\Common.Utils\\Common.Utils.csproj",
+        "projectUniqueName": "C:\\Proyecto-SCB\\backend\\src\\Common\\Common.Utils\\Common.Utils.csproj",
         "projectName": "Common.Utils",
-        "projectPath": "C:\\Users\\gusta\\Desktop\\PTSCB\\backend\\src\\Common\\Common.Utils\\Common.Utils.csproj",
-        "packagesPath": "C:\\Users\\gusta\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gusta\\Desktop\\PTSCB\\backend\\src\\Common\\Common.Utils\\obj\\",
+        "projectPath": "C:\\Proyecto-SCB\\backend\\src\\Common\\Common.Utils\\Common.Utils.csproj",
+        "packagesPath": "C:\\Users\\Ingal\\.nuget\\packages\\",
+        "outputPath": "C:\\Proyecto-SCB\\backend\\src\\Common\\Common.Utils\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\gusta\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Ingal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -92,8 +82,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "C:\\Users\\gusta\\Desktop\\PTSCB\\backend\\src\\Common\\Common.Entities\\Common.Entities.csproj": {
-                "projectPath": "C:\\Users\\gusta\\Desktop\\PTSCB\\backend\\src\\Common\\Common.Entities\\Common.Entities.csproj"
+              "C:\\Proyecto-SCB\\backend\\src\\Common\\Common.Entities\\Common.Entities.csproj": {
+                "projectPath": "C:\\Proyecto-SCB\\backend\\src\\Common\\Common.Entities\\Common.Entities.csproj"
               }
             }
           }
@@ -128,7 +118,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

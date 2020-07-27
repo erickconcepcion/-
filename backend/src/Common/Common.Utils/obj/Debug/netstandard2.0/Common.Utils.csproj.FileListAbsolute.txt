@@ -9,3 +9,15 @@ C:\Users\gusta\Desktop\TSCB\PTSCB\backend\src\Common\Common.Utils\obj\Debug\nets
 C:\Users\gusta\Desktop\TSCB\PTSCB\backend\src\Common\Common.Utils\obj\Debug\netstandard2.0\Common.Utils.csproj.CopyComplete
 C:\Users\gusta\Desktop\TSCB\PTSCB\backend\src\Common\Common.Utils\obj\Debug\netstandard2.0\Common.Utils.dll
 C:\Users\gusta\Desktop\TSCB\PTSCB\backend\src\Common\Common.Utils\obj\Debug\netstandard2.0\Common.Utils.pdb
+C:\Proyecto-SCB\backend\src\Common\Common.Utils\bin\Debug\netstandard2.0\Common.Utils.deps.json
+C:\Proyecto-SCB\backend\src\Common\Common.Utils\bin\Debug\netstandard2.0\Common.Utils.dll
+C:\Proyecto-SCB\backend\src\Common\Common.Utils\bin\Debug\netstandard2.0\Common.Utils.pdb
+C:\Proyecto-SCB\backend\src\Common\Common.Utils\bin\Debug\netstandard2.0\Common.Entities.dll
+C:\Proyecto-SCB\backend\src\Common\Common.Utils\bin\Debug\netstandard2.0\Common.Entities.pdb
+C:\Proyecto-SCB\backend\src\Common\Common.Utils\obj\Debug\netstandard2.0\Common.Utils.csprojAssemblyReference.cache
+C:\Proyecto-SCB\backend\src\Common\Common.Utils\obj\Debug\netstandard2.0\Common.Utils.AssemblyInfoInputs.cache
+C:\Proyecto-SCB\backend\src\Common\Common.Utils\obj\Debug\netstandard2.0\Common.Utils.AssemblyInfo.cs
+C:\Proyecto-SCB\backend\src\Common\Common.Utils\obj\Debug\netstandard2.0\Common.Utils.csproj.CoreCompileInputs.cache
+C:\Proyecto-SCB\backend\src\Common\Common.Utils\obj\Debug\netstandard2.0\Common.Utils.csproj.CopyComplete
+C:\Proyecto-SCB\backend\src\Common\Common.Utils\obj\Debug\netstandard2.0\Common.Utils.dll
+C:\Proyecto-SCB\backend\src\Common\Common.Utils\obj\Debug\netstandard2.0\Common.Utils.pdb

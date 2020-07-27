@@ -12,7 +12,7 @@ import { PagesRoutingModule } from './pages-routing.module';
 import { ThemeModule } from '../@theme/theme.module';
 import { MiscellaneousModule } from './miscellaneous/miscellaneous.module';
 import { PagesMenu } from './pages-menu';
-import { ECommerceModule } from './e-commerce/e-commerce.module';
+import { GestionarUsuarioModule } from './gestionar-usuario/gestionar-usuario.module';
 import { NbMenuModule } from '@nebular/theme';
 import { AuthModule } from '../@auth/auth.module';
 
@@ -25,7 +25,7 @@ const PAGES_COMPONENTS = [
     PagesRoutingModule,
     ThemeModule,
     DashboardModule,
-    ECommerceModule,
+    GestionarUsuarioModule,
     NbMenuModule,
     MiscellaneousModule,
     AuthModule.forRoot(),

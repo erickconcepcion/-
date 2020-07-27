@@ -6,3 +6,12 @@ C:\Users\gusta\Desktop\TSCB\PTSCB\backend\src\Common\Common.Entities\obj\Debug\n
 C:\Users\gusta\Desktop\TSCB\PTSCB\backend\src\Common\Common.Entities\obj\Debug\netstandard2.0\Common.Entities.AssemblyInfo.cs
 C:\Users\gusta\Desktop\TSCB\PTSCB\backend\src\Common\Common.Entities\obj\Debug\netstandard2.0\Common.Entities.dll
 C:\Users\gusta\Desktop\TSCB\PTSCB\backend\src\Common\Common.Entities\obj\Debug\netstandard2.0\Common.Entities.pdb
+C:\Proyecto-SCB\backend\src\Common\Common.Entities\bin\Debug\netstandard2.0\Common.Entities.deps.json
+C:\Proyecto-SCB\backend\src\Common\Common.Entities\bin\Debug\netstandard2.0\Common.Entities.dll
+C:\Proyecto-SCB\backend\src\Common\Common.Entities\bin\Debug\netstandard2.0\Common.Entities.pdb
+C:\Proyecto-SCB\backend\src\Common\Common.Entities\obj\Debug\netstandard2.0\Common.Entities.csprojAssemblyReference.cache
+C:\Proyecto-SCB\backend\src\Common\Common.Entities\obj\Debug\netstandard2.0\Common.Entities.AssemblyInfoInputs.cache
+C:\Proyecto-SCB\backend\src\Common\Common.Entities\obj\Debug\netstandard2.0\Common.Entities.AssemblyInfo.cs
+C:\Proyecto-SCB\backend\src\Common\Common.Entities\obj\Debug\netstandard2.0\Common.Entities.csproj.CoreCompileInputs.cache
+C:\Proyecto-SCB\backend\src\Common\Common.Entities\obj\Debug\netstandard2.0\Common.Entities.dll
+C:\Proyecto-SCB\backend\src\Common\Common.Entities\obj\Debug\netstandard2.0\Common.Entities.pdb

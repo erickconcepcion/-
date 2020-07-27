@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "yeK6z0mrEkgsgDkv0kga1dWqoijzb57H6WQgyRnE+P7XB7NV8B+6NvyiYbgkOSbLn5AeSGI63pjOEDVUYfpumA==",
+  "success": true,
+  "projectFilePath": "C:\\Proyecto-SCB\\backend\\src\\Common\\Common.IdentityManagement\\Common.IdentityManagement.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ingal\\.nuget\\packages\\automapper\\8.0.0\\automapper.8.0.0.nupkg.sha512",
+    "C:\\Users\\Ingal\\.nuget\\packages\\microsoft.aspnet.identity.core\\2.2.3\\microsoft.aspnet.identity.core.2.2.3.nupkg.sha512",
+    "C:\\Users\\Ingal\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
