@@ -61,7 +61,7 @@ export class PagesMenu {
         ],
       },
       {
-        title: 'Form',
+        title: 'Gestionar Rubros',
         icon: 'edit-2-outline',
         children: [
           {

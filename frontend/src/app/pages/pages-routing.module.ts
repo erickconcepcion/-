@@ -17,7 +17,7 @@ const routes: Routes = [{
   component: PagesComponent,
   children: [
     {
-      path: 'dashboard',
+      path: 'gestionar-usuario',
       component: GestionarUsuarioComponent,
     },
     {
@@ -35,9 +35,9 @@ const routes: Routes = [{
         .then(m => m.GestionarObraModule),
     },
     {
-      path: 'forms',
-      loadChildren: () => import('./forms/forms.module')
-        .then(m => m.FormsModule),
+      path: 'gestionar-rubros',
+      loadChildren: () => import('./gestionar-rubros/gestionar-rubros.module')
+        .then(m => m.GestionarRubroModule),
     },
     {
       path: 'ui-features',

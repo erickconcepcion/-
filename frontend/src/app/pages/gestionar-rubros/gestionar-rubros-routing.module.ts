@@ -7,36 +7,36 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-import { FormsComponent } from './forms.component';
-import { FormInputsComponent } from './form-inputs/form-inputs.component';
-import { FormLayoutsComponent } from './form-layouts/form-layouts.component';
-import { DatepickerComponent } from './datepicker/datepicker.component';
-import { ButtonsComponent } from './buttons/buttons.component';
+import { GestionarRubroComponent } from './gestionar-rubros.component';
+// import { FormInputsComponent } from './form-inputs/form-inputs.component';
+// import { FormLayoutsComponent } from './form-layouts/form-layouts.component';
+// import { DatepickerComponent } from './datepicker/datepicker.component';
+// import { ButtonsComponent } from './buttons/buttons.component';
 
 const routes: Routes = [
   {
     path: '',
-    component: FormsComponent,
+    component: GestionarRubroComponent,
     children: [
       {
         path: 'inputs',
-        component: FormInputsComponent,
+        // component: FormInputsComponent,
       },
       {
         path: 'layouts',
-        component: FormLayoutsComponent,
+        // component: FormLayoutsComponent,
       },
       {
         path: 'layouts',
-        component: FormLayoutsComponent,
+        // component: FormLayoutsComponent,
       },
       {
         path: 'buttons',
-        component: ButtonsComponent,
+        // component: ButtonsComponent,
       },
       {
         path: 'datepicker',
-        component: DatepickerComponent,
+        // component: DatepickerComponent,
       },
     ],
   },
@@ -50,6 +50,6 @@ const routes: Routes = [
     RouterModule,
   ],
 })
-export class FormsRoutingModule {
+export class GestionarRubroRoutingModule {
 }
 
