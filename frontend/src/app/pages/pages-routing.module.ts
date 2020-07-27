@@ -40,9 +40,9 @@ const routes: Routes = [{
         .then(m => m.GestionarRubroModule),
     },
     {
-      path: 'ui-features',
-      loadChildren: () => import('./ui-features/ui-features.module')
-        .then(m => m.UiFeaturesModule),
+      path: 'gestionar-analisis',
+      loadChildren: () => import('./gestionar-analisis/gestionar-analisis.module')
+        .then(m => m.GenerarAnalisisModule),
     },
     {
       path: 'modal-overlays',

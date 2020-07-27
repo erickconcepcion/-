@@ -7,10 +7,10 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'ngx-grid',
-  styleUrls: ['./grid.component.scss'],
-  templateUrl: './grid.component.html',
+  selector: 'ngx-ui-features',
+  template: `
+    <router-outlet></router-outlet>
+  `,
 })
-export class GridComponent {
-
+export class GenerarAnalisisComponent {
 }
