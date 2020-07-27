@@ -45,9 +45,9 @@ const routes: Routes = [{
         .then(m => m.GenerarAnalisisModule),
     },
     {
-      path: 'modal-overlays',
-      loadChildren: () => import('./modal-overlays/modal-overlays.module')
-        .then(m => m.ModalOverlaysModule),
+      path: 'inventario',
+      loadChildren: () => import('./inventario/inventario.module')
+        .then(m => m.InventarioModule),
     },
     {
       path: 'extra-components',
