@@ -30,11 +30,11 @@ export class PagesMenu {
 
     const menu: NbMenuItem[] = [
       {
-        title: 'FEATURES',
+        title: 'FUNCIONES',
         group: true,
       },
       {
-        title: 'Layout',
+        title: 'Gestionar Obras',
         icon: 'layout-outline',
         children: [
           {
@@ -61,7 +61,7 @@ export class PagesMenu {
         ],
       },
       {
-        title: 'Forms',
+        title: 'Form',
         icon: 'edit-2-outline',
         children: [
           {
@@ -162,7 +162,7 @@ export class PagesMenu {
         ],
       },
       {
-        title: 'Maps',
+        title: 'Gestionar Productos',
         icon: 'map-outline',
         children: [
           {

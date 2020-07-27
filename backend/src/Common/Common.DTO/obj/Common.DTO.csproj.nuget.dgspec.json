@@ -1,21 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Proyecto-SCB\\backend\\src\\Common\\Common.DTO\\Common.DTO.csproj": {}
+    "C:\\Users\\gusta\\Desktop\\PTSCB\\backend\\src\\Common\\Common.DTO\\Common.DTO.csproj": {}
   },
   "projects": {
-    "C:\\Proyecto-SCB\\backend\\src\\Common\\Common.DTO\\Common.DTO.csproj": {
+    "C:\\Users\\gusta\\Desktop\\PTSCB\\backend\\src\\Common\\Common.DTO\\Common.DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Proyecto-SCB\\backend\\src\\Common\\Common.DTO\\Common.DTO.csproj",
+        "projectUniqueName": "C:\\Users\\gusta\\Desktop\\PTSCB\\backend\\src\\Common\\Common.DTO\\Common.DTO.csproj",
         "projectName": "Common.DTO",
-        "projectPath": "C:\\Proyecto-SCB\\backend\\src\\Common\\Common.DTO\\Common.DTO.csproj",
-        "packagesPath": "C:\\Users\\Ingal\\.nuget\\packages\\",
-        "outputPath": "C:\\Proyecto-SCB\\backend\\src\\Common\\Common.DTO\\obj\\",
+        "projectPath": "C:\\Users\\gusta\\Desktop\\PTSCB\\backend\\src\\Common\\Common.DTO\\Common.DTO.csproj",
+        "packagesPath": "C:\\Users\\gusta\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gusta\\Desktop\\PTSCB\\backend\\src\\Common\\Common.DTO\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Ingal\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\gusta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.0"
@@ -55,7 +60,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

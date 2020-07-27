@@ -21,3 +21,14 @@ C:\Proyecto-SCB\backend\src\Common\Common.Utils\obj\Debug\netstandard2.0\Common.
 C:\Proyecto-SCB\backend\src\Common\Common.Utils\obj\Debug\netstandard2.0\Common.Utils.csproj.CopyComplete
 C:\Proyecto-SCB\backend\src\Common\Common.Utils\obj\Debug\netstandard2.0\Common.Utils.dll
 C:\Proyecto-SCB\backend\src\Common\Common.Utils\obj\Debug\netstandard2.0\Common.Utils.pdb
+C:\Users\gusta\Desktop\PTSCB\backend\src\Common\Common.Utils\bin\Debug\netstandard2.0\Common.Utils.deps.json
+C:\Users\gusta\Desktop\PTSCB\backend\src\Common\Common.Utils\bin\Debug\netstandard2.0\Common.Utils.dll
+C:\Users\gusta\Desktop\PTSCB\backend\src\Common\Common.Utils\bin\Debug\netstandard2.0\Common.Utils.pdb
+C:\Users\gusta\Desktop\PTSCB\backend\src\Common\Common.Utils\bin\Debug\netstandard2.0\Common.Entities.dll
+C:\Users\gusta\Desktop\PTSCB\backend\src\Common\Common.Utils\bin\Debug\netstandard2.0\Common.Entities.pdb
+C:\Users\gusta\Desktop\PTSCB\backend\src\Common\Common.Utils\obj\Debug\netstandard2.0\Common.Utils.csprojAssemblyReference.cache
+C:\Users\gusta\Desktop\PTSCB\backend\src\Common\Common.Utils\obj\Debug\netstandard2.0\Common.Utils.AssemblyInfoInputs.cache
+C:\Users\gusta\Desktop\PTSCB\backend\src\Common\Common.Utils\obj\Debug\netstandard2.0\Common.Utils.AssemblyInfo.cs
+C:\Users\gusta\Desktop\PTSCB\backend\src\Common\Common.Utils\obj\Debug\netstandard2.0\Common.Utils.csproj.CopyComplete
+C:\Users\gusta\Desktop\PTSCB\backend\src\Common\Common.Utils\obj\Debug\netstandard2.0\Common.Utils.dll
+C:\Users\gusta\Desktop\PTSCB\backend\src\Common\Common.Utils\obj\Debug\netstandard2.0\Common.Utils.pdb

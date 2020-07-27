@@ -15,3 +15,11 @@ C:\Proyecto-SCB\backend\src\Common\Common.DTO\obj\Debug\netstandard2.0\Common.DT
 C:\Proyecto-SCB\backend\src\Common\Common.DTO\obj\Debug\netstandard2.0\Common.DTO.csproj.CoreCompileInputs.cache
 C:\Proyecto-SCB\backend\src\Common\Common.DTO\obj\Debug\netstandard2.0\Common.DTO.dll
 C:\Proyecto-SCB\backend\src\Common\Common.DTO\obj\Debug\netstandard2.0\Common.DTO.pdb
+C:\Users\gusta\Desktop\PTSCB\backend\src\Common\Common.DTO\bin\Debug\netstandard2.0\Common.DTO.deps.json
+C:\Users\gusta\Desktop\PTSCB\backend\src\Common\Common.DTO\bin\Debug\netstandard2.0\Common.DTO.dll
+C:\Users\gusta\Desktop\PTSCB\backend\src\Common\Common.DTO\bin\Debug\netstandard2.0\Common.DTO.pdb
+C:\Users\gusta\Desktop\PTSCB\backend\src\Common\Common.DTO\obj\Debug\netstandard2.0\Common.DTO.csprojAssemblyReference.cache
+C:\Users\gusta\Desktop\PTSCB\backend\src\Common\Common.DTO\obj\Debug\netstandard2.0\Common.DTO.AssemblyInfoInputs.cache
+C:\Users\gusta\Desktop\PTSCB\backend\src\Common\Common.DTO\obj\Debug\netstandard2.0\Common.DTO.AssemblyInfo.cs
+C:\Users\gusta\Desktop\PTSCB\backend\src\Common\Common.DTO\obj\Debug\netstandard2.0\Common.DTO.dll
+C:\Users\gusta\Desktop\PTSCB\backend\src\Common\Common.DTO\obj\Debug\netstandard2.0\Common.DTO.pdb

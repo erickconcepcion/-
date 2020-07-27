@@ -30,9 +30,9 @@ const routes: Routes = [{
         .then(m => m.UsersModule),
     },
     {
-      path: 'layout',
-      loadChildren: () => import('./layout/layout.module')
-        .then(m => m.LayoutModule),
+      path: 'gestionar-obra',
+      loadChildren: () => import('./gestionar-obra/gestionar-obra.module')
+        .then(m => m.GestionarObraModule),
     },
     {
       path: 'forms',
@@ -55,9 +55,9 @@ const routes: Routes = [{
         .then(m => m.ExtraComponentsModule),
     },
     {
-      path: 'maps',
-      loadChildren: () => import('./maps/maps.module')
-        .then(m => m.MapsModule),
+      path: 'gestionar-producto',
+      loadChildren: () => import('./gestionar-producto/gestionar-producto.module')
+        .then(m => m.GestionarProductoModule),
     },
     {
       path: 'charts',
