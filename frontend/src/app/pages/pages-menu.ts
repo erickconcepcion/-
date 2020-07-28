@@ -83,7 +83,7 @@ export class PagesMenu {
         ],
       },
       {
-        title: 'UI Features',
+        title: 'Generar Análisis',
         icon: 'keypad-outline',
         link: '/pages/ui-features',
         children: [

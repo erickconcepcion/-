@@ -4,11 +4,11 @@
  * See LICENSE_SINGLE_APP / LICENSE_MULTI_APP in the 'docs' folder for license information on type of purchased license.
  */
 
-import { Component } from '@angular/core';
+// import { Component } from '@angular/core';
 
-@Component({
-    selector: 'ngx-search-fields',
-    templateUrl: 'search-fields.component.html',
-})
-export class SearchComponent {
-}
+// @Component({
+//     selector: 'ngx-search-fields',
+//     templateUrl: 'search-fields.component.html',
+// })
+// export class SearchComponent {
+// }
