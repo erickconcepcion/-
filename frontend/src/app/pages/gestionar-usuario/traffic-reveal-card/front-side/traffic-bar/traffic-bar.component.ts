@@ -4,7 +4,7 @@
  * See LICENSE_SINGLE_APP / LICENSE_MULTI_APP in the 'docs' folder for license information on type of purchased license.
  */
 
-import { Component, Input } from '@angular/core';
+/* import { Component, Input } from '@angular/core';
 import { Comparison } from '../../../../../@core/interfaces/ecommerce/traffic-list';
 
 @Component({
@@ -16,4 +16,4 @@ export class TrafficBarComponent {
 
   @Input() barData: Comparison;
   @Input() successDelta: boolean;
-}
+} */

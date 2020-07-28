@@ -7,8 +7,8 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'ngx-ecommerce',
-  templateUrl: './gestionar-usuario.component.html',
+  selector: 'ngx-tables',
+  template: `<router-outlet></router-outlet>`,
 })
 export class GestionarUsuarioComponent {
 }

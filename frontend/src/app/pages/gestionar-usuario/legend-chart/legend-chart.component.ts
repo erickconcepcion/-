@@ -4,7 +4,7 @@
  * See LICENSE_SINGLE_APP / LICENSE_MULTI_APP in the 'docs' folder for license information on type of purchased license.
  */
 
-import { Component, Input } from '@angular/core';
+/* import { Component, Input } from '@angular/core';
 
 import { NgxLegendItemColor } from './enum.legend-item-color';
 
@@ -20,6 +20,7 @@ export class ECommerceLegendChartComponent {
    * Available iconColor: 'green', 'purple', 'light-purple', 'blue', 'yellow'
    * @type {{iconColor: string; title: string}[]}
    */
-  @Input()
+ /*  @Input()
   legendItems: { iconColor: NgxLegendItemColor; title: string }[] = [];
-}
+} */
+

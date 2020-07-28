@@ -4,7 +4,7 @@
  * See LICENSE_SINGLE_APP / LICENSE_MULTI_APP in the 'docs' folder for license information on type of purchased license.
  */
 
-import { Component, EventEmitter, Input, OnDestroy, Output } from '@angular/core';
+/* import { Component, EventEmitter, Input, OnDestroy, Output } from '@angular/core';
 
 import * as L from 'leaflet';
 
@@ -147,4 +147,4 @@ export class CountryOrdersMapComponent implements OnDestroy {
     this.alive = false;
   }
 
-}
+} */

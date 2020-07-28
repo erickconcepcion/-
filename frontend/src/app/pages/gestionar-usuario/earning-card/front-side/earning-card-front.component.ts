@@ -4,7 +4,7 @@
  * See LICENSE_SINGLE_APP / LICENSE_MULTI_APP in the 'docs' folder for license information on type of purchased license.
  */
 
-import { Component, Input, OnDestroy, OnInit } from '@angular/core';
+/* import { Component, Input, OnDestroy, OnInit } from '@angular/core';
 import { NbThemeService } from '@nebular/theme';
 import { interval , Subscription } from 'rxjs';
 import { switchMap, takeWhile } from 'rxjs/operators';
@@ -76,4 +76,4 @@ export class EarningCardFrontComponent implements OnDestroy, OnInit {
   ngOnDestroy() {
     this.alive = false;
   }
-}
+} */

@@ -9,7 +9,7 @@ import { NbCardModule, NbIconModule, NbInputModule, NbTreeGridModule } from '@ne
 import { Ng2SmartTableModule } from 'ng2-smart-table';
 
 import { ThemeModule } from '../../@theme/theme.module';
-import { TablesRoutingModule, routedComponents } from './gestionar-usuario-routing.module';
+import { GestionarUsuarioRoutingModule, routedComponents } from './gestionar-usuario-routing.module';
 import {MeasureConverterPipe} from '../../@theme/pipes';
 
 @NgModule({
@@ -19,7 +19,7 @@ import {MeasureConverterPipe} from '../../@theme/pipes';
     NbIconModule,
     NbInputModule,
     ThemeModule,
-    TablesRoutingModule,
+    GestionarUsuarioRoutingModule,
     Ng2SmartTableModule,
   ],
   declarations: [

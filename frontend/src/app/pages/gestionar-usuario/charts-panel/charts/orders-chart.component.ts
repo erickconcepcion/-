@@ -4,7 +4,7 @@
  * See LICENSE_SINGLE_APP / LICENSE_MULTI_APP in the 'docs' folder for license information on type of purchased license.
  */
 
-import { AfterViewInit, Component, Input, OnChanges, OnDestroy } from '@angular/core';
+/* import { AfterViewInit, Component, Input, OnChanges, OnDestroy } from '@angular/core';
 import { NbThemeService } from '@nebular/theme';
 import { delay, takeWhile } from 'rxjs/operators';
 
@@ -314,3 +314,4 @@ export class OrdersChartComponent implements AfterViewInit, OnDestroy, OnChanges
     this.alive = false;
   }
 }
+ */

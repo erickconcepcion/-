@@ -4,7 +4,7 @@
  * See LICENSE_SINGLE_APP / LICENSE_MULTI_APP in the 'docs' folder for license information on type of purchased license.
  */
 
-import { Component, OnDestroy } from '@angular/core';
+/* import { Component, OnDestroy } from '@angular/core';
 import { NbThemeService } from '@nebular/theme';
 import { takeWhile } from 'rxjs/operators';
 
@@ -46,4 +46,4 @@ export class ECommerceUserActivityComponent implements OnDestroy {
   ngOnDestroy() {
     this.alive = false;
   }
-}
+} */

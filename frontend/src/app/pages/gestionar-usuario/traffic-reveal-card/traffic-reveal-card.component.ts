@@ -4,7 +4,7 @@
  * See LICENSE_SINGLE_APP / LICENSE_MULTI_APP in the 'docs' folder for license information on type of purchased license.
  */
 
-import { Component, OnDestroy } from '@angular/core';
+/* import { Component, OnDestroy } from '@angular/core';
 import { TrafficListItem, TrafficListData } from '../../../@core/interfaces/ecommerce/traffic-list';
 import { TrafficBar } from '../../../@core/interfaces/ecommerce/traffic-bar';
 import { takeWhile } from 'rxjs/operators';
@@ -52,4 +52,4 @@ export class TrafficRevealCardComponent implements OnDestroy {
   ngOnDestroy() {
     this.alive = false;
   }
-}
+} */

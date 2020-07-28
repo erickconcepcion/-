@@ -4,7 +4,7 @@
  * See LICENSE_SINGLE_APP / LICENSE_MULTI_APP in the 'docs' folder for license information on type of purchased license.
  */
 
-import { Component } from '@angular/core';
+/* import { Component } from '@angular/core';
 
 @Component({
   selector: 'ngx-earning-card',
@@ -18,4 +18,4 @@ export class EarningCardComponent {
   toggleView() {
     this.flipped = !this.flipped;
   }
-}
+} */

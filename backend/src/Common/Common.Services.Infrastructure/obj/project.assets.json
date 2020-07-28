@@ -962,20 +962,27 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Ingal\\.nuget\\packages\\": {}
+    "C:\\Users\\gusta\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Proyecto-SCB\\backend\\src\\Common\\Common.Services.Infrastructure\\Common.Services.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\gusta\\Desktop\\PTSCB\\backend\\src\\Common\\Common.Services.Infrastructure\\Common.Services.Infrastructure.csproj",
       "projectName": "Common.Services.Infrastructure",
-      "projectPath": "C:\\Proyecto-SCB\\backend\\src\\Common\\Common.Services.Infrastructure\\Common.Services.Infrastructure.csproj",
-      "packagesPath": "C:\\Users\\Ingal\\.nuget\\packages\\",
-      "outputPath": "C:\\Proyecto-SCB\\backend\\src\\Common\\Common.Services.Infrastructure\\obj\\",
+      "projectPath": "C:\\Users\\gusta\\Desktop\\PTSCB\\backend\\src\\Common\\Common.Services.Infrastructure\\Common.Services.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\gusta\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\gusta\\Desktop\\PTSCB\\backend\\src\\Common\\Common.Services.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Ingal\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\gusta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
@@ -987,11 +994,11 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\Proyecto-SCB\\backend\\src\\Common\\Common.DTO\\Common.DTO.csproj": {
-              "projectPath": "C:\\Proyecto-SCB\\backend\\src\\Common\\Common.DTO\\Common.DTO.csproj"
+            "C:\\Users\\gusta\\Desktop\\PTSCB\\backend\\src\\Common\\Common.DTO\\Common.DTO.csproj": {
+              "projectPath": "C:\\Users\\gusta\\Desktop\\PTSCB\\backend\\src\\Common\\Common.DTO\\Common.DTO.csproj"
             },
-            "C:\\Proyecto-SCB\\backend\\src\\Common\\Common.Entities\\Common.Entities.csproj": {
-              "projectPath": "C:\\Proyecto-SCB\\backend\\src\\Common\\Common.Entities\\Common.Entities.csproj"
+            "C:\\Users\\gusta\\Desktop\\PTSCB\\backend\\src\\Common\\Common.Entities\\Common.Entities.csproj": {
+              "projectPath": "C:\\Users\\gusta\\Desktop\\PTSCB\\backend\\src\\Common\\Common.Entities\\Common.Entities.csproj"
             }
           }
         }
@@ -1026,7 +1033,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

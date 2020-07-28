@@ -4,7 +4,7 @@
  * See LICENSE_SINGLE_APP / LICENSE_MULTI_APP in the 'docs' folder for license information on type of purchased license.
  */
 
-import { Component, OnDestroy, OnInit, ViewChild } from '@angular/core';
+/* import { Component, OnDestroy, OnInit, ViewChild } from '@angular/core';
 import { takeWhile } from 'rxjs/operators';
 
 import { ChartPanelHeaderComponent } from './chart-panel-header/chart-panel-header.component';
@@ -85,4 +85,4 @@ export class ECommerceChartsPanelComponent implements OnInit, OnDestroy {
   ngOnDestroy() {
     this.alive = false;
   }
-}
+} */

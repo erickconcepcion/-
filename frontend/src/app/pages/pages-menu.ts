@@ -20,12 +20,23 @@ export class PagesMenu {
       {
         title: 'Gestionar Usuario',
         icon: 'people-outline',
+        link: '/pages/gestionar-usuario',
+        home: true,
+        children: [
+          {
+            title: 'Seccion Usuario',
+            link: '/pages/gestionar-usuario/seccion-usuario',
+          },
+
+      /* {
+        title: 'Gestionar Usuario',
+        icon: 'people-outline',
         link: '/pages/gestionar-usuarios',
         home: true,
         children: [ {
           title: 'seccion-usuario',
           link: '/pages/gestionar-usuarios/seccion-usuario',
-        },
+        }, */
       ],
       },
       {

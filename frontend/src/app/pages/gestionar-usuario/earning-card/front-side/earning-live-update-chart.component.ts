@@ -4,7 +4,7 @@
  * See LICENSE_SINGLE_APP / LICENSE_MULTI_APP in the 'docs' folder for license information on type of purchased license.
  */
 
-import { delay, takeWhile } from 'rxjs/operators';
+/* import { delay, takeWhile } from 'rxjs/operators';
 import { AfterViewInit, Component, Input, OnChanges, OnDestroy } from '@angular/core';
 import { NbThemeService } from '@nebular/theme';
 import { LayoutService } from '../../../../@core/utils/layout.service';
@@ -167,4 +167,4 @@ export class EarningLiveUpdateChartComponent implements AfterViewInit, OnDestroy
   ngOnDestroy() {
     this.alive = false;
   }
-}
+} */

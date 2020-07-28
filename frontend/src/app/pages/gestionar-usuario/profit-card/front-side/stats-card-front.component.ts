@@ -4,7 +4,7 @@
  * See LICENSE_SINGLE_APP / LICENSE_MULTI_APP in the 'docs' folder for license information on type of purchased license.
  */
 
-import { Component, OnDestroy } from '@angular/core';
+/* import { Component, OnDestroy } from '@angular/core';
 import { ProfitBarAnimationChartData } from '../../../../@core/interfaces/ecommerce/profit-bar-animation-chart';
 import { takeWhile } from 'rxjs/operators';
 import { ChartData } from '../../../../@core/interfaces/common/chart';
@@ -31,4 +31,4 @@ export class StatsCardFrontComponent implements OnDestroy {
   ngOnDestroy(): void {
     this.alive = false;
   }
-}
+} */

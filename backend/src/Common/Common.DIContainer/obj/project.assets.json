@@ -1180,21 +1180,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Ingal\\.nuget\\packages\\": {}
+    "C:\\Users\\gusta\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Proyecto-SCB\\backend\\src\\Common\\Common.DIContainer\\Common.DIContainer.csproj",
+      "projectUniqueName": "C:\\Users\\gusta\\Desktop\\PTSCB\\backend\\src\\Common\\Common.DIContainer\\Common.DIContainer.csproj",
       "projectName": "Common.DIContainer",
-      "projectPath": "C:\\Proyecto-SCB\\backend\\src\\Common\\Common.DIContainer\\Common.DIContainer.csproj",
-      "packagesPath": "C:\\Users\\Ingal\\.nuget\\packages\\",
-      "outputPath": "C:\\Proyecto-SCB\\backend\\src\\Common\\Common.DIContainer\\obj\\",
+      "projectPath": "C:\\Users\\gusta\\Desktop\\PTSCB\\backend\\src\\Common\\Common.DIContainer\\Common.DIContainer.csproj",
+      "packagesPath": "C:\\Users\\gusta\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\gusta\\Desktop\\PTSCB\\backend\\src\\Common\\Common.DIContainer\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Ingal\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\gusta\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net48"
@@ -1206,17 +1211,17 @@
       "frameworks": {
         "net48": {
           "projectReferences": {
-            "C:\\Proyecto-SCB\\backend\\src\\Common\\Common.DataAccess.EntityFramework\\Common.DataAccess.EntityFramework.csproj": {
-              "projectPath": "C:\\Proyecto-SCB\\backend\\src\\Common\\Common.DataAccess.EntityFramework\\Common.DataAccess.EntityFramework.csproj"
+            "C:\\Users\\gusta\\Desktop\\PTSCB\\backend\\src\\Common\\Common.DataAccess.EntityFramework\\Common.DataAccess.EntityFramework.csproj": {
+              "projectPath": "C:\\Users\\gusta\\Desktop\\PTSCB\\backend\\src\\Common\\Common.DataAccess.EntityFramework\\Common.DataAccess.EntityFramework.csproj"
             },
-            "C:\\Proyecto-SCB\\backend\\src\\Common\\Common.Entities\\Common.Entities.csproj": {
-              "projectPath": "C:\\Proyecto-SCB\\backend\\src\\Common\\Common.Entities\\Common.Entities.csproj"
+            "C:\\Users\\gusta\\Desktop\\PTSCB\\backend\\src\\Common\\Common.Entities\\Common.Entities.csproj": {
+              "projectPath": "C:\\Users\\gusta\\Desktop\\PTSCB\\backend\\src\\Common\\Common.Entities\\Common.Entities.csproj"
             },
-            "C:\\Proyecto-SCB\\backend\\src\\Common\\Common.Services.Infrastructure\\Common.Services.Infrastructure.csproj": {
-              "projectPath": "C:\\Proyecto-SCB\\backend\\src\\Common\\Common.Services.Infrastructure\\Common.Services.Infrastructure.csproj"
+            "C:\\Users\\gusta\\Desktop\\PTSCB\\backend\\src\\Common\\Common.Services.Infrastructure\\Common.Services.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\gusta\\Desktop\\PTSCB\\backend\\src\\Common\\Common.Services.Infrastructure\\Common.Services.Infrastructure.csproj"
             },
-            "C:\\Proyecto-SCB\\backend\\src\\Common\\Common.Services\\Common.Services.csproj": {
-              "projectPath": "C:\\Proyecto-SCB\\backend\\src\\Common\\Common.Services\\Common.Services.csproj"
+            "C:\\Users\\gusta\\Desktop\\PTSCB\\backend\\src\\Common\\Common.Services\\Common.Services.csproj": {
+              "projectPath": "C:\\Users\\gusta\\Desktop\\PTSCB\\backend\\src\\Common\\Common.Services\\Common.Services.csproj"
             }
           }
         }

@@ -4,7 +4,7 @@
  * See LICENSE_SINGLE_APP / LICENSE_MULTI_APP in the 'docs' folder for license information on type of purchased license.
  */
 
-import { Component, Input } from '@angular/core';
+/* import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'ngx-slide-out',
@@ -18,4 +18,4 @@ export class SlideOutComponent {
   toggleStatistics() {
     this.showVisitorsStatistics = !this.showVisitorsStatistics;
   }
-}
+} */

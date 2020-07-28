@@ -4,7 +4,7 @@
  * See LICENSE_SINGLE_APP / LICENSE_MULTI_APP in the 'docs' folder for license information on type of purchased license.
  */
 
-import { Component, OnDestroy } from '@angular/core';
+/* import { Component, OnDestroy } from '@angular/core';
 import { StatsBarData } from '../../../../@core/interfaces/ecommerce/stats-bar';
 import { takeWhile } from 'rxjs/operators';
 
@@ -34,4 +34,4 @@ export class StatsCardBackComponent implements OnDestroy {
   ngOnDestroy() {
     this.alive = false;
   }
-}
+} */

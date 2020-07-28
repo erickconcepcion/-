@@ -30,7 +30,7 @@ const routes: Routes = [{
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule],
 })
-export class TablesRoutingModule { }
+export class GestionarUsuarioRoutingModule { }
 
 export const routedComponents = [
   GestionarUsuarioComponent,
