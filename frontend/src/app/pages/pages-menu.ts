@@ -107,6 +107,10 @@ export class PagesMenu {
         link: '/pages/ui-features',
         children: [
           {
+            title: 'Seccion Analisis',
+            link: '/pages/gestionar-analisis/seccion-analisis',
+          },
+          {
             title: 'Grid',
             link: '/pages/ui-features/grid',
           },

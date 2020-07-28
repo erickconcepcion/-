@@ -5,36 +5,29 @@
  */
 
 import { NgModule } from '@angular/core';
-import { NbAlertModule, NbCardModule, NbIconModule, NbPopoverModule, NbSearchModule } from '@nebular/theme';
+import { NbCardModule, NbIconModule, NbInputModule, NbTreeGridModule } from '@nebular/theme';
+import { Ng2SmartTableModule } from 'ng2-smart-table';
 
 import { ThemeModule } from '../../@theme/theme.module';
-import { GenerarAnalisisRoutingModule } from './gestionar-analisis-routing.module';
-import { GenerarAnalisisComponent } from './gestionar-analisis.component';
-// import { GridComponent } from './grid/grid.component';
-// import { IconsComponent } from './icons/icons.component';
-// import { TypographyComponent } from './typography/typography.component';
-// import { SearchComponent } from './search-fields/search-fields.component';
-
-const components = [
-  GenerarAnalisisComponent,
-  // GridComponent,
-  // IconsComponent,
-  // TypographyComponent,
-  // SearchComponent,
-];
+import {MeasureConverterPipe} from '../../@theme/pipes';
+import { GestionarAnalisisRoutingModule, routedComponents } from './gestionar-analisis-routing.module';
 
 @NgModule({
   imports: [
     NbCardModule,
-    NbPopoverModule,
-    NbSearchModule,
+    NbTreeGridModule,
     NbIconModule,
-    NbAlertModule,
+    NbInputModule,
     ThemeModule,
-    GenerarAnalisisRoutingModule,
+    GestionarAnalisisRoutingModule,
+    Ng2SmartTableModule,
   ],
   declarations: [
-    ...components,
+    ...routedComponents,
+   /*  FsIconComponent, */
+  ],
+  providers: [
+    MeasureConverterPipe,
   ],
 })
-export class GenerarAnalisisModule { }
+export class GestionarAnalisisModule { }

@@ -42,7 +42,7 @@ const routes: Routes = [{
     {
       path: 'gestionar-analisis',
       loadChildren: () => import('./gestionar-analisis/gestionar-analisis.module')
-        .then(m => m.GenerarAnalisisModule),
+        .then(m => m.GestionarAnalisisModule),
     },
     {
       path: 'inventario',

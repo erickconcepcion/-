@@ -7,32 +7,45 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { GenerarAnalisisComponent } from './gestionar-analisis.component';
-// import { GridComponent } from './grid/grid.component';
-// import { IconsComponent } from './icons/icons.component';
-// import { TypographyComponent } from './typography/typography.component';
-// import { SearchComponent } from './search-fields/search-fields.component';
+import { GestionarAnalisisComponent } from './gestionar-analisis.component';
+/* import { Tab1Component, Tab2Component, TabsComponent } from './tabs/tabs.component';
+import { AccordionComponent } from './accordion/accordion.component';
+import { InfiniteListComponent } from './infinite-list/infinite-list.component';
+import { ListComponent } from './list/list.component';
+import { StepperComponent } from './stepper/stepper.component'; */
+import { SeccionAnalisisComponent } from './seccion-analisis/seccion-analisis.component';
 
 const routes: Routes = [{
   path: '',
-  component: GenerarAnalisisComponent,
-  children: [ {
-    path: 'grid',
-    // component: GridComponent,
-  }, {
-    path: 'icons',
-    // component: IconsComponent,
-  }, {
-    path: 'typography',
-    // component: TypographyComponent,
-  }, {
-    path: 'search-fields',
-    // component: SearchComponent,
-  }],
+  component: GestionarAnalisisComponent,
+  children: [
+    {
+      path: 'seccion-analisis',
+      component: SeccionAnalisisComponent,
+    },
+    {
+      path: 'list',
+      /* component: ListComponent, */
+    },
+    {
+      path: 'infinite-list',
+      /* component: InfiniteListComponent, */
+    },
+    {
+      path: 'accordion',
+      /* component: AccordionComponent, */
+    },
+  ],
 }];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule],
 })
-export class GenerarAnalisisRoutingModule { }
+export class GestionarAnalisisRoutingModule { }
+
+export  const  routedComponents = [
+  GestionarAnalisisComponent,
+  SeccionAnalisisComponent,
+];
+
