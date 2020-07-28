@@ -5,51 +5,48 @@
  */
 
 import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
+import { Routes, RouterModule } from '@angular/router';
 
-import { GestionarRubroComponent } from './gestionar-rubros.component';
-// import { FormInputsComponent } from './form-inputs/form-inputs.component';
-// import { FormLayoutsComponent } from './form-layouts/form-layouts.component';
-// import { DatepickerComponent } from './datepicker/datepicker.component';
-// import { ButtonsComponent } from './buttons/buttons.component';
+import { GestionarRubrosComponent } from './gestionar-rubros.component';
+/* import { Tab1Component, Tab2Component, TabsComponent } from './tabs/tabs.component';
+import { AccordionComponent } from './accordion/accordion.component';
+import { InfiniteListComponent } from './infinite-list/infinite-list.component';
+import { ListComponent } from './list/list.component';
+import { StepperComponent } from './stepper/stepper.component'; */
+import { SeccionRubroComponent } from './seccion-rubro/seccion-rubro.component';
 
-const routes: Routes = [
-  {
-    path: '',
-    component: GestionarRubroComponent,
-    children: [
-      {
-        path: 'inputs',
-        // component: FormInputsComponent,
-      },
-      {
-        path: 'layouts',
-        // component: FormLayoutsComponent,
-      },
-      {
-        path: 'layouts',
-        // component: FormLayoutsComponent,
-      },
-      {
-        path: 'buttons',
-        // component: ButtonsComponent,
-      },
-      {
-        path: 'datepicker',
-        // component: DatepickerComponent,
-      },
-    ],
-  },
-];
+const routes: Routes = [{
+  path: '',
+  component: GestionarRubrosComponent,
+  children: [
+    {
+      path: 'seccion-rubro',
+      component: SeccionRubroComponent,
+    },
+    {
+      path: 'list',
+      /* component: ListComponent, */
+    },
+    {
+      path: 'infinite-list',
+      /* component: InfiniteListComponent, */
+    },
+    {
+      path: 'accordion',
+      /* component: AccordionComponent, */
+    },
+  ],
+}];
 
 @NgModule({
-  imports: [
-    RouterModule.forChild(routes),
-  ],
-  exports: [
-    RouterModule,
-  ],
+  imports: [RouterModule.forChild(routes)],
+  exports: [RouterModule],
 })
-export class GestionarRubroRoutingModule {
-}
+export class GestionarRubrosRoutingModule { }
+
+export  const  routedComponents = [
+  GestionarRubrosComponent,
+  SeccionRubroComponent,
+];
+
 

@@ -5,47 +5,29 @@
  */
 
 import { NgModule } from '@angular/core';
-import {
-  NbActionsModule,
-  NbButtonModule,
-  NbCardModule,
-  NbCheckboxModule,
-  NbDatepickerModule, NbIconModule,
-  NbInputModule,
-  NbRadioModule,
-  NbSelectModule,
-  NbUserModule,
-} from '@nebular/theme';
+import { NbCardModule, NbIconModule, NbInputModule, NbTreeGridModule } from '@nebular/theme';
+import { Ng2SmartTableModule } from 'ng2-smart-table';
 
 import { ThemeModule } from '../../@theme/theme.module';
-import { GestionarRubroRoutingModule } from './gestionar-rubros-routing.module';
-import { GestionarRubroComponent } from './gestionar-rubros.component';
-// import { FormInputsComponent } from './form-inputs/form-inputs.component';
-// import { FormLayoutsComponent } from './form-layouts/form-layouts.component';
-// import { DatepickerComponent } from './datepicker/datepicker.component';
-// import { ButtonsComponent } from './buttons/buttons.component';
+import {MeasureConverterPipe} from '../../@theme/pipes';
+import { GestionarRubrosRoutingModule, routedComponents } from './gestionar-rubros-routing.module';
 
 @NgModule({
   imports: [
+    NbCardModule,
+    NbTreeGridModule,
+    NbIconModule,
+    NbInputModule,
     ThemeModule,
-    // NbInputModule,
-    // NbCardModule,
-    // NbButtonModule,
-    // NbActionsModule,
-    // NbUserModule,
-    // NbCheckboxModule,
-    // NbRadioModule,
-    // NbDatepickerModule,
-    GestionarRubroRoutingModule,
-    // NbSelectModule,
-    // NbIconModule,
+    GestionarRubrosRoutingModule,
+    Ng2SmartTableModule,
   ],
   declarations: [
-    GestionarRubroComponent,
-    // ButtonsComponent,
-    // FormInputsComponent,
-    // FormLayoutsComponent,
-    // DatepickerComponent,
+    ...routedComponents,
+   /*  FsIconComponent, */
+  ],
+  providers: [
+    MeasureConverterPipe,
   ],
 })
-export class GestionarRubroModule { }
+export class GestionarRubrosModule { }

@@ -37,7 +37,7 @@ const routes: Routes = [{
     {
       path: 'gestionar-rubros',
       loadChildren: () => import('./gestionar-rubros/gestionar-rubros.module')
-        .then(m => m.GestionarRubroModule),
+        .then(m => m.GestionarRubrosModule),
     },
     {
       path: 'gestionar-analisis',

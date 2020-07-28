@@ -84,8 +84,8 @@ export class PagesMenu {
         icon: 'edit-2-outline',
         children: [
           {
-            title: 'Form Inputs',
-            link: '/pages/forms/inputs',
+            title: 'Seccion Rubro',
+            link: '/pages/gestionar-rubros/seccion-rubro',
           },
           {
             title: 'Form Layouts',
