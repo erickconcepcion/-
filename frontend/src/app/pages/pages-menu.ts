@@ -57,8 +57,8 @@ export class PagesMenu {
         icon: 'layout-outline',
         children: [
           {
-            title: 'Stepper',
-            link: '/pages/layout/stepper',
+            title: 'Seccion Obra',
+            link: '/pages/gestionar-obra/seccion-obra',
           },
           {
             title: 'List',
