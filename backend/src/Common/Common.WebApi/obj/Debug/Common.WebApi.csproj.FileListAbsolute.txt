@@ -119,7 +119,6 @@ C:\Users\gusta\Desktop\TSCB\PTSCB\backend\src\Common\Common.WebApi\obj\Debug\Com
 C:\Users\gusta\Desktop\TSCB\PTSCB\backend\src\Common\Common.WebApi\obj\Debug\Common.WebApi.csproj.CopyComplete
 C:\Users\gusta\Desktop\TSCB\PTSCB\backend\src\Common\Common.WebApi\obj\Debug\Common.WebApi.dll
 C:\Users\gusta\Desktop\TSCB\PTSCB\backend\src\Common\Common.WebApi\obj\Debug\Common.WebApi.pdb
-C:\Proyecto-SCB\backend\src\Common\Common.WebApi\bin\Common.WebApi.dll.config
 C:\Proyecto-SCB\backend\src\Common\Common.WebApi\bin\Common.WebApi.dll
 C:\Proyecto-SCB\backend\src\Common\Common.WebApi\bin\Common.WebApi.pdb
 C:\Proyecto-SCB\backend\src\Common\Common.WebApi\bin\AutoMapper.dll
@@ -362,3 +361,4 @@ C:\Users\gusta\Desktop\PTSCB\backend\src\Common\Common.WebApi\obj\Debug\Common.W
 C:\Users\gusta\Desktop\PTSCB\backend\src\Common\Common.WebApi\obj\Debug\Common.WebApi.csproj.CopyComplete
 C:\Users\gusta\Desktop\PTSCB\backend\src\Common\Common.WebApi\obj\Debug\Common.WebApi.dll
 C:\Users\gusta\Desktop\PTSCB\backend\src\Common\Common.WebApi\obj\Debug\Common.WebApi.pdb
+C:\Proyecto-SCB\backend\src\Common\Common.WebApi\bin\Common.WebApi.dll.config

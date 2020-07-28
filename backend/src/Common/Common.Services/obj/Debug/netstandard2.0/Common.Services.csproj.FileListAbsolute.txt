@@ -26,7 +26,6 @@ C:\Proyecto-SCB\backend\src\Common\Common.Services\bin\Debug\netstandard2.0\Comm
 C:\Proyecto-SCB\backend\src\Common\Common.Services\bin\Debug\netstandard2.0\Common.Utils.pdb
 C:\Proyecto-SCB\backend\src\Common\Common.Services\bin\Debug\netstandard2.0\Common.DTO.pdb
 C:\Proyecto-SCB\backend\src\Common\Common.Services\bin\Debug\netstandard2.0\Common.Entities.pdb
-C:\Proyecto-SCB\backend\src\Common\Common.Services\obj\Debug\netstandard2.0\Common.Services.csprojAssemblyReference.cache
 C:\Proyecto-SCB\backend\src\Common\Common.Services\obj\Debug\netstandard2.0\Common.Services.AssemblyInfoInputs.cache
 C:\Proyecto-SCB\backend\src\Common\Common.Services\obj\Debug\netstandard2.0\Common.Services.AssemblyInfo.cs
 C:\Proyecto-SCB\backend\src\Common\Common.Services\obj\Debug\netstandard2.0\Common.Services.csproj.CoreCompileInputs.cache
@@ -50,3 +49,4 @@ C:\Users\gusta\Desktop\PTSCB\backend\src\Common\Common.Services\obj\Debug\netsta
 C:\Users\gusta\Desktop\PTSCB\backend\src\Common\Common.Services\obj\Debug\netstandard2.0\Common.Services.csproj.CopyComplete
 C:\Users\gusta\Desktop\PTSCB\backend\src\Common\Common.Services\obj\Debug\netstandard2.0\Common.Services.dll
 C:\Users\gusta\Desktop\PTSCB\backend\src\Common\Common.Services\obj\Debug\netstandard2.0\Common.Services.pdb
+C:\Proyecto-SCB\backend\src\Common\Common.Services\obj\Debug\netstandard2.0\Common.Services.csprojAssemblyReference.cache

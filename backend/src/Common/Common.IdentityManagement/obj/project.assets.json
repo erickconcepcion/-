@@ -455,26 +455,21 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\gusta\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\Ingal\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gusta\\Desktop\\PTSCB\\backend\\src\\Common\\Common.IdentityManagement\\Common.IdentityManagement.csproj",
+      "projectUniqueName": "C:\\Proyecto-SCB\\backend\\src\\Common\\Common.IdentityManagement\\Common.IdentityManagement.csproj",
       "projectName": "Common.IdentityManagement",
-      "projectPath": "C:\\Users\\gusta\\Desktop\\PTSCB\\backend\\src\\Common\\Common.IdentityManagement\\Common.IdentityManagement.csproj",
-      "packagesPath": "C:\\Users\\gusta\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gusta\\Desktop\\PTSCB\\backend\\src\\Common\\Common.IdentityManagement\\obj\\",
+      "projectPath": "C:\\Proyecto-SCB\\backend\\src\\Common\\Common.IdentityManagement\\Common.IdentityManagement.csproj",
+      "packagesPath": "C:\\Users\\Ingal\\.nuget\\packages\\",
+      "outputPath": "C:\\Proyecto-SCB\\backend\\src\\Common\\Common.IdentityManagement\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\gusta\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\Ingal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net48"
@@ -486,14 +481,14 @@
       "frameworks": {
         "net48": {
           "projectReferences": {
-            "C:\\Users\\gusta\\Desktop\\PTSCB\\backend\\src\\Common\\Common.Entities\\Common.Entities.csproj": {
-              "projectPath": "C:\\Users\\gusta\\Desktop\\PTSCB\\backend\\src\\Common\\Common.Entities\\Common.Entities.csproj"
+            "C:\\Proyecto-SCB\\backend\\src\\Common\\Common.Entities\\Common.Entities.csproj": {
+              "projectPath": "C:\\Proyecto-SCB\\backend\\src\\Common\\Common.Entities\\Common.Entities.csproj"
             },
-            "C:\\Users\\gusta\\Desktop\\PTSCB\\backend\\src\\Common\\Common.Services.Infrastructure\\Common.Services.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\gusta\\Desktop\\PTSCB\\backend\\src\\Common\\Common.Services.Infrastructure\\Common.Services.Infrastructure.csproj"
+            "C:\\Proyecto-SCB\\backend\\src\\Common\\Common.Services.Infrastructure\\Common.Services.Infrastructure.csproj": {
+              "projectPath": "C:\\Proyecto-SCB\\backend\\src\\Common\\Common.Services.Infrastructure\\Common.Services.Infrastructure.csproj"
             },
-            "C:\\Users\\gusta\\Desktop\\PTSCB\\backend\\src\\Common\\Common.Utils\\Common.Utils.csproj": {
-              "projectPath": "C:\\Users\\gusta\\Desktop\\PTSCB\\backend\\src\\Common\\Common.Utils\\Common.Utils.csproj"
+            "C:\\Proyecto-SCB\\backend\\src\\Common\\Common.Utils\\Common.Utils.csproj": {
+              "projectPath": "C:\\Proyecto-SCB\\backend\\src\\Common\\Common.Utils\\Common.Utils.csproj"
             }
           }
         }
