@@ -106,7 +106,7 @@ export class PagesMenu {
         ],
       },
       {
-        title: 'Modal & Overlays',
+        title: 'Inventario',
         icon: 'browser-outline',
         children: [
           {
