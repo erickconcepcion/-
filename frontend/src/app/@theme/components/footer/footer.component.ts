@@ -13,7 +13,9 @@ import { Component } from '@angular/core';
     <span class="created-by">Desarrollado por A.G, 2020 </span>
     <div class="socials">
      <a href="https://www.facebook.com/nelson.biviecagarcia.5" target="_blank" class="ion ion-social-facebook"></a>
-          </div>
+     <a href="#" target="_blank" class="ion ion-social-instagram"></a>
+     <a href="#" target="_blank" class="ion ion-social-linkedin"></a>
+    </div>
   `,
 })
 export class FooterComponent {

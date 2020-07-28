@@ -14,11 +14,19 @@ export class PagesMenu {
   getMenu(): Observable<NbMenuItem[]> {
     const dashboardMenu: NbMenuItem[] = [
       {
+        title: 'GESTIONAR USUARIOS',
+        group: true,
+      },
+      {
         title: 'Gestionar Usuario',
         icon: 'people-outline',
-        link: '/pages/dashboard',
+        link: '/pages/gestionar-usuarios',
         home: true,
-        children: undefined,
+        children: [ {
+          title: 'seccion-usuario',
+          link: '/pages/gestionar-usuarios/seccion-usuario',
+        },
+      ],
       },
       {
         title: 'IoT Dashboard',
@@ -30,7 +38,7 @@ export class PagesMenu {
 
     const menu: NbMenuItem[] = [
       {
-        title: 'FUNCIONES',
+        title: 'GESTIONAR PRESUPUESTOS',
         group: true,
       },
       {
@@ -184,7 +192,7 @@ export class PagesMenu {
         ],
       },
       {
-        title: 'Charts',
+        title: 'Ayuda',
         icon: 'pie-chart-outline',
         children: [
           {

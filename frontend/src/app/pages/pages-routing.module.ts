@@ -9,7 +9,6 @@ import { NgModule } from '@angular/core';
 
 import { PagesComponent } from './pages.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
-import { GestionarUsuarioComponent } from './gestionar-usuario/gestionar-usuario.component';
 import { NotFoundComponent } from './miscellaneous/not-found/not-found.component';
 
 const routes: Routes = [{
@@ -18,8 +17,9 @@ const routes: Routes = [{
   children: [
     {
       path: 'gestionar-usuario',
-      component: GestionarUsuarioComponent,
-    },
+      loadChildren: () => import('./gestionar-usuario/gestionar-usuario.module')
+          .then(m => m.GestionarUsuarioModule),
+      },
     {
       path: 'iot-dashboard',
       component: DashboardComponent,
@@ -60,9 +60,9 @@ const routes: Routes = [{
         .then(m => m.GestionarProductoModule),
     },
     {
-      path: 'charts',
-      loadChildren: () => import('./charts/charts.module')
-        .then(m => m.ChartsModule),
+      path: 'ayuda',
+      loadChildren: () => import('./ayuda/ayuda.module')
+        .then(m => m.AyudaModule),
     },
     {
       path: 'editors',
@@ -81,7 +81,7 @@ const routes: Routes = [{
     },
     {
       path: '',
-      redirectTo: 'dashboard',
+      redirectTo: 'gestionar-usuarios',
       pathMatch: 'full',
     },
     {
