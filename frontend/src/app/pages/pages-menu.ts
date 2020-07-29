@@ -133,8 +133,8 @@ export class PagesMenu {
         icon: 'browser-outline',
         children: [
           {
-            title: 'Dialog',
-            link: '/pages/modal-overlays/dialog',
+            title: 'Seccion Inventario',
+            link: '/pages/inventario/seccion-inventario',
           },
           {
             title: 'Window',
@@ -189,8 +189,8 @@ export class PagesMenu {
         icon: 'map-outline',
         children: [
           {
-            title: 'Google Maps',
-            link: '/pages/maps/gmaps',
+            title: 'Seccion Producto',
+            link: '/pages/gestionar-producto/seccion-producto',
           },
           {
             title: 'Leaflet Maps',

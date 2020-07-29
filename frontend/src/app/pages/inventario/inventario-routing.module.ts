@@ -5,37 +5,35 @@
  */
 
 import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
+import { Routes, RouterModule } from '@angular/router';
+
 import { InventarioComponent } from './inventario.component';
-/* import { DialogComponent } from './dialog/dialog.component';
-import { WindowComponent } from './window/window.component';
-import { PopoversComponent } from './popovers/popovers.component';
-import { ToastrComponent } from './toastr/toastr.component';
-import { TooltipComponent } from './tooltip/tooltip.component'; */
+/* import { Tab1Component, Tab2Component, TabsComponent } from './tabs/tabs.component';
+import { AccordionComponent } from './accordion/accordion.component';
+import { InfiniteListComponent } from './infinite-list/infinite-list.component';
+import { ListComponent } from './list/list.component';
+import { StepperComponent } from './stepper/stepper.component'; */
+import { SeccionInventarioComponent } from './seccion-inventario/seccion-inventario.component';
 
 const routes: Routes = [{
   path: '',
   component: InventarioComponent,
   children: [
     {
-      path: 'dialog',
-      /* component: DialogComponent, */
+      path: 'seccion-inventario',
+      component: SeccionInventarioComponent,
     },
     {
-      path: 'window',
-      /* component: WindowComponent, */
+      path: 'list',
+      /* component: ListComponent, */
     },
     {
-      path: 'popover',
-     /*  component: PopoversComponent, */
+      path: 'infinite-list',
+      /* component: InfiniteListComponent, */
     },
     {
-      path: 'tooltip',
-     /*  component: TooltipComponent, */
-    },
-    {
-      path: 'toastr',
-     /*  component: ToastrComponent, */
+      path: 'accordion',
+      /* component: AccordionComponent, */
     },
   ],
 }];
@@ -44,7 +42,10 @@ const routes: Routes = [{
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule],
 })
-export class InventarioRoutingModule {
-}
+export class InventarioRoutingModule { }
 
+export  const  routedComponents = [
+  InventarioComponent,
+  SeccionInventarioComponent,
+];
 

@@ -8,29 +8,34 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 import { GestionarProductoComponent } from './gestionar-producto.component';
-/* import { GmapsComponent } from './gmaps/gmaps.component';
-import { LeafletComponent } from './leaflet/leaflet.component';
-import { BubbleMapComponent } from './bubble/bubble-map.component';
-import { SearchMapComponent } from './search-map/search-map.component';
-import { MapComponent } from './search-map/map/map.component';
-import { SearchComponent } from './search-map/search/search.component'; */
+/* import { Tab1Component, Tab2Component, TabsComponent } from './tabs/tabs.component';
+import { AccordionComponent } from './accordion/accordion.component';
+import { InfiniteListComponent } from './infinite-list/infinite-list.component';
+import { ListComponent } from './list/list.component';
+import { StepperComponent } from './stepper/stepper.component'; */
+import { SeccionProductoComponent } from './seccion-producto/seccion-producto.component';
 
 const routes: Routes = [{
   path: '',
   component: GestionarProductoComponent,
-  children: [{
-    path: 'gmaps',
-    /* component: GmapsComponent, */
-  }, {
-    path: 'leaflet',
-    /* component: LeafletComponent, */
-  }, {
-    path: 'bubble',
-    /* component: BubbleMapComponent, */
-  }, {
-    path: 'searchmap',
-    /* component: SearchMapComponent, */
-  }],
+  children: [
+    {
+      path: 'seccion-producto',
+      component: SeccionProductoComponent,
+    },
+    {
+      path: 'list',
+      /* component: ListComponent, */
+    },
+    {
+      path: 'infinite-list',
+      /* component: InfiniteListComponent, */
+    },
+    {
+      path: 'accordion',
+      /* component: AccordionComponent, */
+    },
+  ],
 }];
 
 @NgModule({
@@ -39,12 +44,7 @@ const routes: Routes = [{
 })
 export class GestionarProductoRoutingModule { }
 
-export const routedComponents = [
+export  const  routedComponents = [
   GestionarProductoComponent,
- /*  GmapsComponent,
-  LeafletComponent,
-  BubbleMapComponent,
-  SearchMapComponent,
-  MapComponent,
-  SearchComponent, */
+  SeccionProductoComponent,
 ];

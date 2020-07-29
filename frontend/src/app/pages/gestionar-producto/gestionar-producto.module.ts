@@ -5,26 +5,29 @@
  */
 
 import { NgModule } from '@angular/core';
-import { GoogleMapsModule } from '@angular/google-maps';
-import { LeafletModule } from '@asymmetrik/ngx-leaflet';
-import { NgxEchartsModule } from 'ngx-echarts';
-import { NbCardModule } from '@nebular/theme';
+import { NbCardModule, NbIconModule, NbInputModule, NbTreeGridModule } from '@nebular/theme';
+import { Ng2SmartTableModule } from 'ng2-smart-table';
 
 import { ThemeModule } from '../../@theme/theme.module';
+import {MeasureConverterPipe} from '../../@theme/pipes';
 import { GestionarProductoRoutingModule, routedComponents } from './gestionar-producto-routing.module';
 
 @NgModule({
   imports: [
-    ThemeModule,
-    GoogleMapsModule,
-    LeafletModule.forRoot(),
-    GestionarProductoRoutingModule,
-    NgxEchartsModule,
     NbCardModule,
+    NbTreeGridModule,
+    NbIconModule,
+    NbInputModule,
+    ThemeModule,
+    GestionarProductoRoutingModule,
+    Ng2SmartTableModule,
   ],
-  exports: [],
   declarations: [
     ...routedComponents,
+   /*  FsIconComponent, */
+  ],
+  providers: [
+    MeasureConverterPipe,
   ],
 })
 export class GestionarProductoModule { }
