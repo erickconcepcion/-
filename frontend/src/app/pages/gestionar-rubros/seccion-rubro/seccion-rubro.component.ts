@@ -32,29 +32,33 @@ export class SeccionRubroComponent {
       confirmDelete: true,
     },
     columns: {
-      id: {
+      Id: {
         title: 'ID',
         type: 'number',
       },
-      firstName: {
-        title: 'First Name',
-        type: 'string',
-      },
-      lastName: {
-        title: 'Last Name',
-        type: 'string',
-      },
-      login: {
-        title: 'Login',
-        type: 'string',
-      },
-      email: {
-        title: 'E-mail',
-        type: 'string',
-      },
-      age: {
-        title: 'Age',
+      TipoRubro: {
+        title: 'Tipo',
         type: 'number',
+      },
+      NombreRubro: {
+        title: 'Nombre',
+        type: 'string',
+      },
+      Observacion: {
+        title: 'Observación',
+        type: 'string',
+      },
+      Unidad: {
+        title: 'Unidad',
+        type: 'string',
+      },
+      Estado: {
+        title: 'Estado',
+        type: 'bolean',
+      },
+      PorcentajeTransporte: {
+        title: 'Porcentaje',
+        type: 'decimal',
       },
     },
   };

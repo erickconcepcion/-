@@ -583,26 +583,21 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\gusta\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\Ingal\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gusta\\Desktop\\PTSCB\\backend\\src\\Common\\Common.DataAccess.EntityFramework\\Common.DataAccess.EntityFramework.csproj",
+      "projectUniqueName": "C:\\Users\\Ingal\\Desktop\\Proyecto-SCB-\\backend\\src\\Common\\Common.DataAccess.EntityFramework\\Common.DataAccess.EntityFramework.csproj",
       "projectName": "Common.DataAccess.EntityFramework",
-      "projectPath": "C:\\Users\\gusta\\Desktop\\PTSCB\\backend\\src\\Common\\Common.DataAccess.EntityFramework\\Common.DataAccess.EntityFramework.csproj",
-      "packagesPath": "C:\\Users\\gusta\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gusta\\Desktop\\PTSCB\\backend\\src\\Common\\Common.DataAccess.EntityFramework\\obj\\",
+      "projectPath": "C:\\Users\\Ingal\\Desktop\\Proyecto-SCB-\\backend\\src\\Common\\Common.DataAccess.EntityFramework\\Common.DataAccess.EntityFramework.csproj",
+      "packagesPath": "C:\\Users\\Ingal\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Ingal\\Desktop\\Proyecto-SCB-\\backend\\src\\Common\\Common.DataAccess.EntityFramework\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
-      "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\gusta\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\Ingal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net472"
@@ -614,11 +609,11 @@
       "frameworks": {
         "net472": {
           "projectReferences": {
-            "C:\\Users\\gusta\\Desktop\\PTSCB\\backend\\src\\Common\\Common.Entities\\Common.Entities.csproj": {
-              "projectPath": "C:\\Users\\gusta\\Desktop\\PTSCB\\backend\\src\\Common\\Common.Entities\\Common.Entities.csproj"
+            "C:\\Users\\Ingal\\Desktop\\Proyecto-SCB-\\backend\\src\\Common\\Common.Entities\\Common.Entities.csproj": {
+              "projectPath": "C:\\Users\\Ingal\\Desktop\\Proyecto-SCB-\\backend\\src\\Common\\Common.Entities\\Common.Entities.csproj"
             },
-            "C:\\Users\\gusta\\Desktop\\PTSCB\\backend\\src\\Common\\Common.Services.Infrastructure\\Common.Services.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\gusta\\Desktop\\PTSCB\\backend\\src\\Common\\Common.Services.Infrastructure\\Common.Services.Infrastructure.csproj"
+            "C:\\Users\\Ingal\\Desktop\\Proyecto-SCB-\\backend\\src\\Common\\Common.Services.Infrastructure\\Common.Services.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Ingal\\Desktop\\Proyecto-SCB-\\backend\\src\\Common\\Common.Services.Infrastructure\\Common.Services.Infrastructure.csproj"
             }
           }
         }

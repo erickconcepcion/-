@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "W12Jp3K0H5lwhyoXJ1Hw1wzzdShWJs1I3LTIltUWv8RlUlIk5BGNTlbqpus4Z1IxdsYdMoh3IuKNfjn1+fbYQw==",
+  "dgSpecHash": "iP9OPl4sXCwEoDXDfC2KeviP9ZL/Lxz5jIlpvckQQRITsE5QNciNjJqoHD7o17zG6Z99XlGiAN2VV4LWur95+w==",
   "success": true,
-  "projectFilePath": "C:\\Proyecto-SCB\\backend\\src\\Common\\Common.DataAccess.EntityFramework\\Common.DataAccess.EntityFramework.csproj",
+  "projectFilePath": "C:\\Users\\Ingal\\Desktop\\Proyecto-SCB-\\backend\\src\\Common\\Common.DataAccess.EntityFramework\\Common.DataAccess.EntityFramework.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ingal\\.nuget\\packages\\automapper\\8.0.0\\automapper.8.0.0.nupkg.sha512",
     "C:\\Users\\Ingal\\.nuget\\packages\\entityframework\\6.4.0\\entityframework.6.4.0.nupkg.sha512",

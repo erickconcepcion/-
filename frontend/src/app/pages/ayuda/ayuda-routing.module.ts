@@ -5,37 +5,32 @@
  */
 
 import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
 
 import { AyudaComponent } from './ayuda.component';
-// import { EchartsComponent } from './echarts/echarts.component';
-// import { D3Component } from './d3/d3.component';
-// import { ChartjsComponent } from './chartjs/chartjs.component';
+import { VersionComponent } from './version/version.component';
+import { SoporteComponent } from './soporte/soporte.component';
 
-const routes: Routes = [{
-  path: '',
-  component: AyudaComponent,
-  children: [{
-    path: 'echarts',
-    /* component: EchartsComponent, */
-  }, {
-    path: 'd3',
-    /* component: D3Component, */
-  }, {
-    path: 'chartjs',
-    /* component: ChartjsComponent, */
-  }],
-}];
+const routes: Routes = [
+  {
+    path: '',
+    component: AyudaComponent,
+    children: [
+      {
+        path: 'version',
+        component: VersionComponent,
+      },
+      {
+        path: 'soporte',
+        component: SoporteComponent,
+      },
+    ],
+  },
+];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule],
 })
-export class AyudaRoutingModule { }
-
-export const routedComponents = [
-  AyudaComponent,
- /*  EchartsComponent,
-  D3Component,
-  ChartjsComponent, */
-];
+export class AyudaRoutingModule {
+}

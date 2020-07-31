@@ -32,28 +32,52 @@ export class SeccionObraComponent {
       confirmDelete: true,
     },
     columns: {
-      id: {
+      Id: {
         title: 'ID',
         type: 'number',
       },
-      firstName: {
-        title: 'First Name',
+      CodigoObra: {
+        title: 'Codigo obra',
         type: 'string',
       },
-      lastName: {
-        title: 'Last Name',
+      NombreObra: {
+        title: 'Nombre obra',
         type: 'string',
       },
-      login: {
-        title: 'Login',
+      FechaCreacion: {
+        title: 'Fecha inicio',
+        type: 'datetime',
+      },
+      NombreCliente: {
+        title: 'Nombre cliente',
         type: 'string',
       },
-      email: {
-        title: 'E-mail',
+      IdPersonaCliente: {
+        title: 'Cédula',
         type: 'string',
       },
-      age: {
-        title: 'Age',
+      NombreOferente: {
+        title: 'Nombre oferente',
+        type: 'string',
+      },
+      IdPersonaOferente: {
+        title: 'Cédula',
+        type: 'string',
+      },
+      RegistroProfesional: {
+        title: 'Registro Profesional',
+        type: 'string',
+      },
+      Direccion: {
+        title: 'Direccion',
+        type: 'string',
+      },
+      IdProvincia: {
+        title: 'Código Provincia',
+        type: 'number',
+      },
+      IdCiudad: {
+        title: 'Código Ciudad',
         type: 'number',
       },
     },

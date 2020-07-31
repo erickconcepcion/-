@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UqI8H9hp513z48Ms8hwybihYu61eHpZ4rdd8yArnsP8WKI80MlLDhDI6AeDLVMPA7Q0KR3S9sb0khpmeqB0PZw==",
+  "dgSpecHash": "T3BdqX1nK7POznaplU+V49Zt2CQyywUOpUnwyPesXC/8LwDYXszvZxlG4n3HTXzIAi5E/7EhdWEelaN84nxrqw==",
   "success": true,
-  "projectFilePath": "C:\\Proyecto-SCB\\backend\\src\\Common\\Common.Services\\Common.Services.csproj",
+  "projectFilePath": "C:\\Users\\Ingal\\Desktop\\Proyecto-SCB-\\backend\\src\\Common\\Common.Services\\Common.Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ingal\\.nuget\\packages\\automapper\\8.0.0\\automapper.8.0.0.nupkg.sha512",
     "C:\\Users\\Ingal\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

@@ -211,8 +211,12 @@ export class PagesMenu {
         icon: 'pie-chart-outline',
         children: [
           {
-            title: 'Echarts',
-            link: '/pages/charts/echarts',
+            title: 'Version',
+            link: '/pages/ayuda/version',
+          },
+          {
+            title: 'Soporte',
+            link: '/pages/ayuda/soporte',
           },
           {
             title: 'Charts.js',

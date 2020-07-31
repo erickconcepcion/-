@@ -23,3 +23,12 @@ C:\Users\gusta\Desktop\PTSCB\backend\src\Common\Common.Entities\obj\Debug\netsta
 C:\Users\gusta\Desktop\PTSCB\backend\src\Common\Common.Entities\obj\Debug\netstandard2.0\Common.Entities.AssemblyInfo.cs
 C:\Users\gusta\Desktop\PTSCB\backend\src\Common\Common.Entities\obj\Debug\netstandard2.0\Common.Entities.dll
 C:\Users\gusta\Desktop\PTSCB\backend\src\Common\Common.Entities\obj\Debug\netstandard2.0\Common.Entities.pdb
+C:\Users\Ingal\Desktop\Proyecto-SCB-\backend\src\Common\Common.Entities\bin\Debug\netstandard2.0\Common.Entities.deps.json
+C:\Users\Ingal\Desktop\Proyecto-SCB-\backend\src\Common\Common.Entities\bin\Debug\netstandard2.0\Common.Entities.dll
+C:\Users\Ingal\Desktop\Proyecto-SCB-\backend\src\Common\Common.Entities\bin\Debug\netstandard2.0\Common.Entities.pdb
+C:\Users\Ingal\Desktop\Proyecto-SCB-\backend\src\Common\Common.Entities\obj\Debug\netstandard2.0\Common.Entities.csprojAssemblyReference.cache
+C:\Users\Ingal\Desktop\Proyecto-SCB-\backend\src\Common\Common.Entities\obj\Debug\netstandard2.0\Common.Entities.AssemblyInfoInputs.cache
+C:\Users\Ingal\Desktop\Proyecto-SCB-\backend\src\Common\Common.Entities\obj\Debug\netstandard2.0\Common.Entities.AssemblyInfo.cs
+C:\Users\Ingal\Desktop\Proyecto-SCB-\backend\src\Common\Common.Entities\obj\Debug\netstandard2.0\Common.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Ingal\Desktop\Proyecto-SCB-\backend\src\Common\Common.Entities\obj\Debug\netstandard2.0\Common.Entities.dll
+C:\Users\Ingal\Desktop\Proyecto-SCB-\backend\src\Common\Common.Entities\obj\Debug\netstandard2.0\Common.Entities.pdb

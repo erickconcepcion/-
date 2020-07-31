@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pu8SzH5j9R4dUJy4+UOyQbxD7/nQt88PxH4HLdIZUJuMypr8b+1bRyXdk00I4siVgUUYis6MDK4LQpDyeg45Eg==",
+  "dgSpecHash": "kJQJaCGD7Foz6PLwXOxd3U2GjfYtrqPpByrbgTCoYziO+TCx3nnqu8jDRwAgroQ/7Q0hktBHCK5EHg0lG3CjVw==",
   "success": true,
-  "projectFilePath": "C:\\Proyecto-SCB\\backend\\src\\Common\\Common.Entities\\Common.Entities.csproj",
+  "projectFilePath": "C:\\Users\\Ingal\\Desktop\\Proyecto-SCB-\\backend\\src\\Common\\Common.Entities\\Common.Entities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ingal\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Ingal\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
