@@ -62,6 +62,16 @@ namespace Common.DataAccess.EntityFramework
             }
         }
 
+        public virtual async Task<TType> Create(TType obj, ContextSession session)
+        {
+            using (var context = GetContext(session))
+            {
+                context.Set<TType>().Add(obj);
+                await context.SaveChangesAsync();
+                return obj;
+            }
+        }
+
         public virtual async Task Delete(int id, ContextSession session)
         {
             using (var context = GetContext(session))

@@ -10,6 +10,7 @@ using Common.DataAccess.EntityFramework;
 using Common.Entities;
 using Unity;
 using Unity.Extension;
+using Common.DataAccess.EntityFramework.Repositories;
 
 namespace Common.DIContainer
 {
@@ -27,6 +28,10 @@ namespace Common.DIContainer
             Container.RegisterType<IRoleRepository<Role>, RoleRepository>();
             Container.RegisterType<IUserRoleRepository<UserRole>, UserRoleRepository>();
             Container.RegisterType<IUserClaimRepository<UserClaim>, UserClaimRepository>();
+
+
+            Container.RegisterType<IPersonaRepository, PersonaRepository>();
+            Container.RegisterType<IPersonaService, PersonaService>();
         }
     }
 }

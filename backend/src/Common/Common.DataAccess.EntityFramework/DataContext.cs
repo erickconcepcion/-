@@ -21,6 +21,7 @@ namespace Common.DataAccess.EntityFramework
         public DbSet<UserClaim> UserClaims { get; set; }
         public DbSet<UserPhoto> UserPhotos { get; set; }
         public DbSet<Settings> Settings { get; set; }
+        public DbSet<Persona> Personas { get; set; }
 
         protected void InitContextSettings()
         {

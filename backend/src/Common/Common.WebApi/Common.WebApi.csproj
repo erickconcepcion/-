@@ -235,6 +235,7 @@
     <Compile Include="CentralizedPrefixProvider.cs" />
     <Compile Include="Controllers\AuthController.cs" />
     <Compile Include="Controllers\BaseApiController.cs" />
+    <Compile Include="Controllers\PersonasController.cs" />
     <Compile Include="Controllers\RolesController.cs" />
     <Compile Include="Controllers\SettingsController.cs" />
     <Compile Include="Controllers\UsersController.cs" />
@@ -277,6 +278,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\Personas\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Common.DIContainer\Common.DIContainer.csproj">
