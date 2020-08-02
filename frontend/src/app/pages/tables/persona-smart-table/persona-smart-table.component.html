@@ -1,0 +1,14 @@
+<nb-card>
+  <nb-card-header>
+    Persona
+  </nb-card-header>
+
+  <nb-card-body>
+    <ng2-smart-table class="example-smart-table"
+                     [settings]="settings"
+                     [source]="$data |async"
+                     (deleteConfirm) ="onDeleteConfirm($event)"
+                     (createConfirm) = "onCreateConfirm($event)">
+    </ng2-smart-table>
+  </nb-card-body>
+</nb-card>

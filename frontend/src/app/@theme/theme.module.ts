@@ -49,6 +49,8 @@ import { DEFAULT_THEME } from './styles/theme.default';
 import { COSMIC_THEME } from './styles/theme.cosmic';
 import { CORPORATE_THEME } from './styles/theme.corporate';
 import { DARK_THEME } from './styles/theme.dark';
+import { NumericSmartEditorComponent } from './components/numeric-smart-editor/numeric-smart-editor.component';
+import { FormsModule } from '@angular/forms';
 
 const NB_MODULES = [
   NbLayoutModule,
@@ -73,6 +75,7 @@ const COMPONENTS = [
   OneColumnLayoutComponent,
   ThreeColumnsLayoutComponent,
   TwoColumnsLayoutComponent,
+  NumericSmartEditorComponent,
 ];
 const PIPES = [
   CapitalizePipe,
@@ -84,7 +87,7 @@ const PIPES = [
 ];
 
 @NgModule({
-  imports: [CommonModule, AuthModule, ...NB_MODULES],
+  imports: [CommonModule, AuthModule, ...NB_MODULES, FormsModule],
   exports: [CommonModule, ...PIPES, ...COMPONENTS],
   declarations: [...COMPONENTS, ...PIPES],
 })
